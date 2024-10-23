@@ -2,7 +2,9 @@
 
 
 ![image](https://github.com/user-attachments/assets/af42484d-726f-4390-a155-dec9741a8583) - Iris setosa
-![image](https://github.com/user-attachments/assets/c62d40ae-2657-4615-ac82-09e24319e3ce) -Iris versicolor
+
+![image](https://github.com/user-attachments/assets/c62d40ae-2657-4615-ac82-09e24319e3ce)-Iris versicolor
+
 ![image](https://github.com/user-attachments/assets/fd9cf55e-3832-4a40-85a3-fff91f9e07e4) -Iris virginica
 
 
