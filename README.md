@@ -78,7 +78,7 @@ The model's performance is evaluated using the following metrics:
 - **Confusion Matrix**: A matrix showing the true vs predicted labels for each class.
 
 output:- on local machine
-C:\Users\anush\OneDrive\Documents\placements\Project\Iris Data anaysis>python -u "c:\Users\anush\OneDrive\Documents\placements\Project\Iris Data anaysis\Iris.py"
+C:\Users\anush\OneDrive\Documents\placements\Project\Iris Data anaysis>python -u "c:\Users\anush\OneDrive\Project\Iris Data anaysis\Iris.py"
 
 Accuracy: 0.93
 Confusion Matrix:
