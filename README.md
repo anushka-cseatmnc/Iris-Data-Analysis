@@ -1,5 +1,8 @@
 # Iris-Data-Analysis
-![image](https://github.com/user-attachments/assets/c54bbd85-7c20-48ba-b6b3-cd0cd73080cd) ![image](https://github.com/user-attachments/assets/680ccf3e-930a-485b-93a4-22d6198c8682)
+
+![image](https://github.com/user-attachments/assets/787e6adc-0708-4d2e-a0c1-c35ffaf19d58)
+![image](https://github.com/user-attachments/assets/c62d40ae-2657-4615-ac82-09e24319e3ce)
+![image](https://github.com/user-attachments/assets/fd9cf55e-3832-4a40-85a3-fff91f9e07e4)
 
 
 
@@ -9,16 +12,7 @@
 
 This project demonstrates the classification of Iris flowers into one of three species (Setosa, Versicolor, Virginica) based on four features: **sepal length**, **sepal width**, **petal length**, and **petal width**. The project uses **Logistic Regression** for classification and evaluates the model's performance using various metrics.
 
-## Table of Contents
 
-- [Problem Statement](#problem-statement)
-- [Solution Approach](#solution-approach)
-- [Requirements](#requirements)
-- [Dataset](#dataset)
-- [Steps to Run](#steps-to-run)
-- [Evaluation](#evaluation)
-- [Visualization](#visualization)
-- [Conclusion](#conclusion)
 
 ## Problem Statement
 
@@ -32,27 +26,6 @@ Using the following features:
 - Sepal width
 - Petal length
 - Petal width
-
-  
- ## Tools :-
-Python: The primary programming language used for implementing the solution.
-
-scikit-learn: A powerful machine learning library that provided essential tools for:
-
-load_iris: Loading the Iris dataset.
-train_test_split: Splitting the dataset into training and testing sets.
-StandardScaler: Preprocessing the data by scaling features.
-LogisticRegression: Training the Logistic Regression classification model.
-NumPy: For efficient handling of array operations and numerical computations.
-
-Pandas: Used for data manipulation and analysis, enabling easy handling of datasets (optional, for potential future enhancements).
-
-Matplotlib: A versatile plotting library, used to visualize the results, particularly for generating the confusion matrix.
-
-Seaborn: Built on top of Matplotlib, Seaborn enhances data visualizations, especially for creating aesthetically pleasing and informative confusion matrices.
-
-
-
 
 
 ## Solution Approach
@@ -76,10 +49,10 @@ pip install numpy pandas scikit-learn matplotlib seaborn
 
 ## Dataset
 
-The Iris dataset is a classic dataset provided by **scikit-learn**. It consists of 150 samples, each with 4 features and a corresponding label (species).
+The Iris dataset is a classic dataset provided by **scikit-learn**. It consists of 150 samples, each with 4 features and a corresponding label ().
 
 ## Steps to Run
-
+species
 1. Clone the repository:
    ```bash
    git clone https://github.com/anushka-cseatmnc/iris-species-classification.git
@@ -102,22 +75,30 @@ The model's performance is evaluated using the following metrics:
 - **Classification Report**: Includes precision, recall, F1-score, and support for each class.
 - **Confusion Matrix**: A matrix showing the true vs predicted labels for each class.
 
-Here is an example of the output:
+output:- on local machine
+C:\Users\anush\OneDrive\Documents\placements\Project\Iris Data anaysis>python -u "c:\Users\anush\OneDrive\Documents\placements\Project\Iris Data anaysis\Iris.py"
 
-```plaintext
-Accuracy: 0.9667
-
+Accuracy: 0.93
+Confusion Matrix:
+ [[10  0  0]
+ [ 0  9  1]
+ [ 0  1  9]]
 Classification Report:
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-      setosa       1.00      1.00      1.00         8
-  versicolor       0.92      1.00      0.96        12
-   virginica       1.00      0.91      0.95        11
+      setosa       1.00      1.00      1.00        10
+  versicolor       0.90      0.90      0.90        10
+   virginica       0.90      0.90      0.90        10
 
-    accuracy                           0.97        31
-   macro avg       0.97      0.97      0.97        31
-weighted avg       0.97      0.97      0.97        31
-```
+    accuracy                           0.93        30
+   macro avg       0.93      0.93      0.93        30
+weighted avg       0.93      0.93      0.93        30
+
+![Figure_2](https://github.com/user-attachments/assets/bc91bef9-c91f-4695-ab58-b3fa4dcbd98c)
+
+
+![Figure_1](https://github.com/user-attachments/assets/99560dfd-8777-4ff0-87c9-847d3f2e5f23)
+
 
 ## Visualization
 
