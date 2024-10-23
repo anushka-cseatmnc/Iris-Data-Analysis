@@ -59,7 +59,7 @@ The Iris dataset is a classic dataset provided by **scikit-learn**. It consists 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/iris-species-classification.git
+   git clone https://github.com/anushka-cseatmnc/iris-species-classification.git
    ```
    
 2. Navigate to the project directory:
