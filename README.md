@@ -33,6 +33,19 @@ Using the following features:
 - Petal length
 - Petal width
 
+  
+## Tools :-
+Python: The programming language used to implement the solution.
+scikit-learn: A machine learning library used for loading the dataset, splitting the data, scaling the features, and building the Logistic Regression model.
+load_iris: To load the Iris dataset.
+train_test_split: To split the dataset into training and testing sets.
+StandardScaler: To preprocess (scale) the features.
+LogisticRegression: To train the classification model.
+NumPy: For handling array operations and numerical computations.
+Pandas: For data manipulation and analysis (optional, if needed for future enhancements).
+Matplotlib: For plotting the confusion matrix and other visualizations.
+Seaborn: For enhanced visualization, especially for the confusion matrix.
+
 ## Solution Approach
 
 The steps followed in the project are:
