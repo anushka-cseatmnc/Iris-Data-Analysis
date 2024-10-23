@@ -39,17 +39,18 @@ Python:- The primary programming language used for implementing the solution.
 
 scikit-learn: A powerful machine learning library that provided essential tools for:
 
-load_iris: Loading the Iris dataset.
-train_test_split: Splitting the dataset into training and testing sets.
-StandardScaler: Preprocessing the data by scaling features.
-LogisticRegression: Training the Logistic Regression classification model.
-NumPy: For efficient handling of array operations and numerical computations.
+## load_iris: - Loading the Iris dataset.
+## train_test_split: Splitting the dataset into training and testing sets.
+## StandardScaler: Preprocessing the data by scaling features.
+## LogisticRegression: Training the Logistic Regression classification model.
+## NumPy: For efficient handling of array operations and numerical computations.
+## Pandas: Used for data manipulation and analysis, enabling easy handling of datasets (optional, for potential future enhancements).
+## Matplotlib: A versatile plotting library, used to visualize the results, particularly for generating the confusion matrix.
+## Seaborn: Built on top of Matplotlib, Seaborn enhances data visualizations, especially for creating aesthetically pleasing and informative confusion matrices.
 
-Pandas: Used for data manipulation and analysis, enabling easy handling of datasets (optional, for potential future enhancements).
 
-Matplotlib: A versatile plotting library, used to visualize the results, particularly for generating the confusion matrix.
 
-Seaborn: Built on top of Matplotlib, Seaborn enhances data visualizations, especially for creating aesthetically pleasing and informative confusion matrices.
+
 ## Solution Approach
 
 The steps followed in the project are:
