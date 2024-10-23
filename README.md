@@ -106,7 +106,7 @@ weighted avg       0.93      0.93      0.93        30
 
 The confusion matrix is visualized using **Seaborn**:
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Figure_2](https://github.com/user-attachments/assets/bc91bef9-c91f-4695-ab58-b3fa4dcbd98c)
 
 ## Conclusion
 
